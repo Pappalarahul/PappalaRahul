@@ -1,0 +1,9 @@
+ #include<stdio.h>
+void main()
+{
+int myArr[]={1,2,3,4,-59,100};
+int*ptr= myArr;
+for(int i=0;i++<(sizeof( myArr))/sizeof( myArr[0]);)
+printf("%d\t",*ptr++);
+ 
+}
